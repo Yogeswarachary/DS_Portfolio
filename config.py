@@ -1,0 +1,250 @@
+# config.py  –  ALL my personal data lives here.
+
+SITE = {
+    "title": "Yogeswarachary Modepalli | Data Scientist",
+    "icon": "📊",
+    "name": "Yogeswarachary Modepalli",
+    "tagline": "Data Scientist & Data Analyst",
+    "sub_tagline": "Career Shift · Fraud Detection · Analytics",
+    "email": "myogeswarachary@gmail.com",
+    "phone": "+91 9676 106 803",
+    "location": "Hyderabad, India (Open to Remote)",
+    "github": "https://github.com/Yogeswarachary",
+    "linkedin": "https://linkedin.com/in/yogeswarachary",
+    "research_paper": "https://yogeswarachary.github.io/Financial-Fraud-India-2024-Research/Financial_Fraud_India_FY_2024_2025.pdf",
+    "resume_file": "assets/Yogeswarachary_Resume.pdf",
+}
+
+SUMMARY = """Data Scientist & Engineer with a unique background in regulatory compliance and
+fraud detection. Proven track record of building production-ready ML pipelines that
+solve real-world financial and operational challenges.
+
+**Career Path:** 3 yrs visa consultancy → Self-taught Data Science → 5 deployed ML projects → 1 research publication
+"""
+
+SKILLS = {
+    "Languages": ["Python", "SQL", "TypeScript", "Bash"],
+    "ML / AI": ["Scikit-Learn", "XGBoost", "CatBoost", "LightGBM", "NLP"],
+    "Cloud & Data": ["Azure (ADF, Synapse, Storage)", "Databricks", "GCP basics"],
+    "Visualization": ["Plotly", "Power BI", "Streamlit", "DAX"],
+    "Tools": ["FastAPI", "Flask", "Git", "Jupyter", "Docker basics"],
+}
+
+# PROJECTS — Add a new dict here to add a project to the site
+PROJECTS = [
+    {
+        "title": "Fraud Detection Realtime App",
+        "icon": "🚨",
+        "desc": "Real-time fraud prediction system with Streamlit frontend, FastAPI backend, ML pipelines, and deployment on Render.",
+        "tech": ["Python", "Streamlit", "FastAPI", "ML Pipelines", "Render"],
+        "highlight": "Realtime Fraud Prediction",
+        "category": "Fraud Detection",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/Fraud-Detection-Realtime-App",
+        "app": "https://fraud-detection-realtime-app-afkteoxnzmjinnn5qzeryu.streamlit.app/",
+    },
+    {
+        "title": "Fraud Map",
+        "icon": "🗺️",
+        "desc": "Fraud risk scoring map built with TypeScript and Next.js to visualize risk across locations and scenarios.",
+        "tech": ["TypeScript", "Next.js"],
+        "highlight": "Fraud Risk Scoring Map",
+        "category": "Fraud Detection",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/fraudmap",
+        "app": "https://fraudmap-jrks-g5gfe95qp-yogeswaracharys-projects.vercel.app/",
+    },
+    {
+        "title": "JP Morgan Bulk Transactions Fraud Detection",
+        "icon": "🏦",
+        "desc": "Bulk transaction fraud detection deployment app for classification-based fraud analysis using production-ready workflows.",
+        "tech": ["Python", "Streamlit", "Machine Learning", "Classification"],
+        "highlight": "Bulk Transaction Detection",
+        "category": "Fraud Detection",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/JP_Morgan_and_Chase_Fraud_Detection_Deployment",
+        "app": "https://jpmorganandchasefrauddetectiondeployment-dfv8woyv2k4ssr3hqeisl.streamlit.app/",
+    },
+    {
+        "title": "JP Morgan Fraud Detection Project",
+        "icon": "📁",
+        "desc": "Main capstone repository containing four versions of the fraud detection pipeline and experimentation workflow.",
+        "tech": ["Python", "Scikit-Learn", "XGBoost", "SQL"],
+        "highlight": "Main Capstone Repository",
+        "category": "Fraud Detection",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/JPMorgan_Fraud_Detection_Project",
+        "app": "",
+    },
+    {
+        "title": "Financial Fraud India 2024 Research",
+        "icon": "📊",
+        "desc": "Independent research paper analyzing financial fraud trends in India for FY 2024–25 with data-backed insights.",
+        "tech": ["Pandas", "Statistics", "Research", "Visualization"],
+        "highlight": "Published Independent Research",
+        "category": "Fraud Detection",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/Financial-Fraud-India-2024-Research",
+        "app": "https://yogeswarachary.github.io/Financial-Fraud-India-2024-Research/Financial_Fraud_India_FY_2024_2025.pdf",
+    },
+    {
+        "title": "DHL Inventory Project",
+        "icon": "📦",
+        "desc": "Inventory optimization and business analysis project using pandas, KPI analysis, and hypothesis-driven decision making.",
+        "tech": ["Python", "Pandas", "Streamlit", "Hypothesis Testing"],
+        "highlight": "Inventory Optimization",
+        "category": "Statistical Analysis",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/DHL_Inventory_Project",
+        "app": "https://yogeswarachary-dhl-inventory-project-deployementapp-hko4qy.streamlit.app/",
+    },
+    {
+        "title": "Cookie Cats Game Hypothesis Testing",
+        "icon": "🧪",
+        "desc": "A/B hypothesis testing project to evaluate player retention and product decisions using statistical testing.",
+        "tech": ["Python", "SciPy", "Statistics", "A/B Testing"],
+        "highlight": "A/B Testing",
+        "category": "Statistical Analysis",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/Cookie_Cats_Game_Hypothesis_Testing",
+        "app": "https://cookiecatsgamehypothesistesting-kiljbluetyfzljxv9vawq4.streamlit.app/",
+    },
+    {
+        "title": "ML Trading Project",
+        "icon": "💹",
+        "desc": "Regression-based ML project on Yahoo Finance data for trading signal prediction and analysis.",
+        "tech": ["Python", "Regression", "Machine Learning", "Finance"],
+        "highlight": "Regression Analysis",
+        "category": "Regression / Forecasting",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/ML_Trading_Project",
+        "app": "https://mltradingproject-igu369irozxgbdsxzn77ht.streamlit.app/",
+    },
+    {
+        "title": "Ecommerce Analysis SQL Project",
+        "icon": "🛒",
+        "desc": "SQL analytics project using 10 business-focused queries to retrieve and analyze ecommerce data.",
+        "tech": ["SQL", "Analytics", "Data Analysis"],
+        "highlight": "10 SQL Business Queries",
+        "category": "Analytics / SQL",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/Ecommerce_Analysis_SQL_Project",
+        "app": "",
+    },
+    {
+        "title": "VisaLens",
+        "icon": "🌐",
+        "desc": "Agentic visa assistant built with TypeScript, Next.js, and Groq to retrieve visa fee and requirement details efficiently.",
+        "tech": ["TypeScript", "Next.js", "Groq", "LLM"],
+        "highlight": "Agentic Visa Assistant",
+        "category": "GenAI Apps",
+        "featured": True,
+        "github": "https://github.com/Yogeswarachary/visalens",
+        "app": "https://visalens-dq5bjy4sw-yogeswaracharys-projects.vercel.app/",
+    },
+    {
+        "title": "AutoDoc",
+        "icon": "🤖",
+        "desc": "Groq-powered Python app that generates GitHub README content and API endpoint documentation from repositories.",
+        "tech": ["Python", "Groq", "Streamlit", "GitHub API"],
+        "highlight": "README + API Docs Generator",
+        "category": "GenAI Apps",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/AutoDoc",
+        "app": "https://autodoc-ek9qbgugv6jfuihzfdjplk.streamlit.app/",
+    },
+    {
+        "title": "Career Transition Advisor",
+        "icon": "🎯",
+        "desc": "Agentic LLM app that reads resumes and job descriptions, then suggests courses and transition guidance for career switchers.",
+        "tech": ["Python", "Groq", "Streamlit", "LLM"],
+        "highlight": "Career Transition Assistant",
+        "category": "GenAI Apps",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/Career_Transition_Advisor",
+        "app": "https://careersuggestionapplication-rb3j7murngi5jcmixmecdp.streamlit.app/",
+    },
+    {
+        "title": "ATS Friendly Resume Content Maker",
+        "icon": "📄",
+        "desc": "Groq-based Streamlit app that generates ATS-friendly resume content with stronger keyword alignment.",
+        "tech": ["Python", "Groq", "Streamlit", "LLM"],
+        "highlight": "ATS Resume Content Generator",
+        "category": "GenAI Apps",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/ATS_Friendly_Resume_Maker",
+        "app": "https://atsfriendlyresumemaker-9c78m9gspjsbyfvgrbgcfx.streamlit.app/",
+    },
+    {
+        "title": "AI Based Error Explainer",
+        "icon": "🐞",
+        "desc": "LLM-powered app that explains programming errors in human-readable language across multiple programming languages.",
+        "tech": ["Python", "Groq", "Streamlit", "LLM"],
+        "highlight": "Human-Readable Error Explanations",
+        "category": "GenAI Apps",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/Error-Explainer-Project",
+        "app": "https://error-explainer-project-idmxvyagaynawvwv33pg7a.streamlit.app/",
+    },
+]
+
+EXPERIENCE = [
+    {
+        "role": "Student Visa Process Executive",
+        "company": "Gateway Visas & Immigration Consultancy",
+        "location": "Hyderabad, India",
+        "duration": "Aug 2024 – Sep 2025",
+        "bullets": [
+            "Managed structured workflows, status tracking, and record accuracy across active cases",
+            "Improved processing efficiency through documentation handling and follow-up management.",
+            "Coordinated stakeholder updates while maintaining consistency and process accuracy.",
+        ],
+    },
+    {
+        "role": "Process Analyst",
+        "company": "La Global Overseas Edu",
+        "location": "Hyderabad, India",
+        "duration": "May 2023 – Jul 2024",
+        "bullets": [
+            "Analyzed workflows and tracking systems, reducing turnaround time by up to 50%",
+            "Improved process visibility and supported structured reporting.",
+            "Reviewed records and monitored updates to maintain operational accuracy.",
+        ],
+    },
+    {
+        "role": "Admissions Expert",
+        "company": "Flywise Overseas Edu",
+        "location": "Hyderabad, India",
+        "duration": "Jan 2023 – Apr 2023",
+        "bullets": [
+            "Provided counseling to the interested students about the USA student visa process",
+            "Maintained records, tracked statuses, and supported documentation workflows.",
+            "Ensured accurate information management and timely stakeholder communication.",
+        ],
+    },
+    {
+        "role": "Java Developer Intern",
+        "company": "Pratian Technologies",
+        "location": "Bengaluru, India",
+        "duration": "Jun 2022 – Sep 2022",
+        "bullets": [
+            "Assisted in Java-based application development and testing.",
+            "Gained exposure to debugging, software workflows, and technical collaboration.",
+        ],
+    },
+
+]
+
+EDUCATION = [
+    {
+        "degree": "B.Tech – Computer Science & Engineering",
+        "institution": "JNTU Hyderabad",
+        "duration": "June 2017 – Nov 2020",
+    },
+]
+
+CERTIFICATIONS = [
+    {"name": "Accelarated Business Analytics & Data Science", "issuer": "Hero Vired"},
+    {"name": "Introduction to Data Science with Python", "issuer": "HarvardX"},
+    {"name": "Generative AI for Data, Tech & Finance", "issuer": "Hero Vired"},
+]
