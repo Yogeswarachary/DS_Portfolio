@@ -23,11 +23,11 @@ solve real-world financial and operational challenges.
 """
 
 SKILLS = {
-    "Languages": ["Python", "SQL", "TypeScript", "Bash"],
+    "Languages": ["Python", "SQL", "MySQL", "Pytorch"],
     "ML / AI": ["Scikit-Learn", "XGBoost", "CatBoost", "LightGBM", "NLP"],
     "Cloud & Data": ["Azure (ADF, Synapse, Storage)", "Databricks", "GCP basics"],
     "Visualization": ["Plotly", "Power BI", "Streamlit", "DAX"],
-    "Tools": ["FastAPI", "Flask", "Git", "Jupyter", "Docker basics"],
+    "Tools": ["FastAPI", "Flask", "Git", "Jupyter", "Docker basics", "Excel"],
 }
 
 # PROJECTS — Add a new dict here to add a project to the site
@@ -185,6 +185,46 @@ PROJECTS = [
         "featured": False,
         "github": "https://github.com/Yogeswarachary/Error-Explainer-Project",
         "app": "https://error-explainer-project-idmxvyagaynawvwv33pg7a.streamlit.app/",
+    },
+    {
+        "title": "Ecommerce Analysis",
+        "icon": "💹",
+        "desc": "Ecommerce data was analyzed using SQL queries to extract insights on sales, customer behavior, and product performance.",
+        "tech": ["MySQL", "SQL", "Data Analysis"],
+        "highlight": "Ecommerce Data Analysis",
+        "category": "SQL Analysis",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/Fraud-Detection-Realtime-App",
+    },
+    {
+        "title": "LMS Analysis - SQL",
+        "icon": "💹",
+        "desc": "Learning Management Systems data was analyzed using SQL queries to extract insights on Course Enrollments, Marks, and Top Scores of Students.",
+        "tech": ["MySQL", "SQL", "Data Analysis"],
+        "highlight": "LMS Data Analysis",
+        "category": "SQL Analysis",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/LMS_Analysis",
+    },
+    {
+        "title": "AirBNB Analysis - Power BI",
+        "icon": "📊",
+        "desc": "AirBNB data was analyzed using Power BI to extract insights on booking patterns, revenue, and customer behavior.",
+        "tech": ["Power BI", "Data Analysis"],
+        "highlight": "AirBNB Data Analysis",
+        "category": "Power BI Analysis",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/Airbnb-Analysis-Power-BI",
+    },
+    {
+        "title": "Global-Logix BI Analysis - Power BI",
+        "icon": "📊",
+        "desc": "Global-Logix data was analyzed using Power BI to extract insights on business performance, customer behavior, and operational efficiency.",
+        "tech": ["Power BI", "Data Analysis"],
+        "highlight": "Global-Logix Data Analysis",
+        "category": "Power BI Analysis",
+        "featured": False,
+        "github": "https://github.com/Yogeswarachary/Global-LogiX-Power-BI-Analysis",
     },
 ]
 
